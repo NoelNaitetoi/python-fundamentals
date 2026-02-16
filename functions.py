@@ -12,9 +12,13 @@ def school ():
 school()
 print()
 
-def add ():
-    num1=20
-    num2=30
+#parameter/variables
+#values/arguments
+def add (num1,num2):
+
     print("The sum is :",num1+num2)
-add()
+add( 23,45  )
+add(3,4)
+add(45,45)
+
 
